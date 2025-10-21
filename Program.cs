@@ -2,6 +2,7 @@ using Joallyfer.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Joallyfer; 
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDataContext>();

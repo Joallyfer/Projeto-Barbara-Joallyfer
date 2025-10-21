@@ -157,3 +157,4 @@ C:\Users\Usuario\OneDrive\Desktop\Joallyfer\Barbara\Joallyfer\obj\Debug\net8.0\r
 C:\Users\Usuario\OneDrive\Desktop\Joallyfer\Barbara\Joallyfer\obj\Debug\net8.0\Joallyfer.pdb
 C:\Users\Usuario\OneDrive\Desktop\Joallyfer\Barbara\Joallyfer\obj\Debug\net8.0\Joallyfer.genruntimeconfig.cache
 C:\Users\Usuario\OneDrive\Desktop\Joallyfer\Barbara\Joallyfer\obj\Debug\net8.0\ref\Joallyfer.dll
+C:\Users\Usuario\OneDrive\Desktop\Joallyfer\Barbara\Joallyfer\obj\Debug\net8.0\Joallyfer.sourcelink.json

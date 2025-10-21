@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-
-namespace Joallyfer.Models
+using Joallyfer.Models;
+namespace Joallyfer
 {
     public class AppDataContext : DbContext
     {
