@@ -1,0 +1,6 @@
+@Joallyfer_HostAddress = http://localhost:5268
+
+GET {{Joallyfer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
