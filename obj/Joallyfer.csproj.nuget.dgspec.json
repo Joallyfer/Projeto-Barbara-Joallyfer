@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\OneDrive\\Desktop\\Joallyfer\\Barbara\\joallyfer\\Joallyfer.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive\\Desktop\\Joallyfer\\Barbara\\Joallyfer\\Joallyfer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\OneDrive\\Desktop\\Joallyfer\\Barbara\\joallyfer\\Joallyfer.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Desktop\\Joallyfer\\Barbara\\Joallyfer\\Joallyfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Joallyfer\\Barbara\\joallyfer\\Joallyfer.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Joallyfer\\Barbara\\Joallyfer\\Joallyfer.csproj",
         "projectName": "Joallyfer",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Joallyfer\\Barbara\\joallyfer\\Joallyfer.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Joallyfer\\Barbara\\Joallyfer\\Joallyfer.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Joallyfer\\Barbara\\joallyfer\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Joallyfer\\Barbara\\Joallyfer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

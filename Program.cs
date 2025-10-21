@@ -11,15 +11,15 @@ var app = builder.Build();
 app.MapPost("/consumo/cadastrar", ([FromBody] Consumo consumo, AppDataContext ctx) =>
 {
     if (consumo.Mes < 1 || consumo.Mes > 12)
-        return Results.BadRequest("Mês inválido!");
+        return Results.BadRequest("Mês inválido");
     if (consumo.Ano < 2000)
-        return Results.BadRequest("Ano inválido!");
+        return Results.BadRequest("Ano inválido");
     if (consumo.M3Consumidos <= 0)
-        return Results.BadRequest("Consumo deve ser maior que zero!");
+        return Results.BadRequest("Consumo deve ser maior que zero");
 
     var duplicado = ctx.Consumos.FirstOrDefault(x => x.Cpf == consumo.Cpf && x.Mes == consumo.Mes && x.Ano == consumo.Ano);
     if (duplicado != null)
-        return Results.BadRequest("Já existe leitura para esse CPF, mês e ano!");
+        return Results.BadRequest("Já existe leitura para esse CPF nesse mês");
 
     // Cálculos
     consumo.ConsumoFaturado = consumo.M3Consumidos;
@@ -39,7 +39,7 @@ app.MapPost("/consumo/cadastrar", ([FromBody] Consumo consumo, AppDataContext ct
     ctx.Consumos.Add(consumo);
     ctx.SaveChanges();
 
-    return Results.Created($"/api/consumo/{consumo.Id}", consumo);
+    return Results.Created($"/consumo/{consumo.Id}", consumo);
 });
 
 app.MapGet("/consumo/listar", (AppDataContext ctx) =>
@@ -59,7 +59,7 @@ app.MapGet("/consumo/listar", (AppDataContext ctx) =>
 
     if (consumo == null)
     {
-        return Results.NotFound("Leitura não encontrada!");
+        return Results.NotFound("Leitura não encontrada");
     }
 
     return Results.Ok(consumo);
@@ -72,13 +72,13 @@ app.MapDelete("/consumo/remover/{cpf}/{mes}/{ano}",
 
     if (consumo == null)
     {
-        return Results.NotFound("Leitura não encontrada!");
+        return Results.NotFound("Leitura não encontrada");
     }
 
     ctx.Consumos.Remove(consumo);
     ctx.SaveChanges();
 
-    return Results.Ok("Leitura removida com sucesso!");
+    return Results.Ok("Leitura removida com sucesso");
 
    
 });

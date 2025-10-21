@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Joallyfer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+faa3a0c4b5f32b65c1f08cc867ad49c988ce0ea3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1def6b57b6644e32c3f83c2cbeccec4627232b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Joallyfer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Joallyfer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
